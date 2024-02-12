@@ -1,0 +1,58 @@
+\documentclass[11pt]{article}
+\parindent 0px
+\usepackage{enumerate}
+
+\begin{document}
+
+Numbered list
+\begin{enumerate}
+\item dog
+	\begin{enumerate}
+	\item Shepherd
+	\item Golden Retriever
+	\item Bernese
+	\end{enumerate}
+\item cat
+\end{enumerate}
+
+Customized(limited) list(needs package enumerate)
+\begin{enumerate}[A.]
+\item dog
+	\begin{enumerate}
+	\item Shepherd
+	\item Golden Retriever
+	\item Bernese
+	\end{enumerate}
+\item cat
+\end{enumerate}
+\begin{enumerate}[i.]
+\item dog
+	\begin{enumerate}
+	\item Shepherd
+	\item Golden Retriever
+	\item Bernese
+	\end{enumerate}
+\item cat
+\end{enumerate}
+\begin{enumerate} \setcounter{enumi}{4}
+\item dog
+	\begin{enumerate}
+	\item Shepherd
+	\item Golden Retriever
+	\item Bernese
+	\end{enumerate}
+\item cat
+\end{enumerate}
+
+List-full customized(you can even do it without numbers or symbols but space remained)
+\begin{enumerate}
+\item[] dog
+\item[tw] cat
+\end{enumerate}
+
+Bulleted list
+\begin{itemize}
+\item dog
+\item cat
+\end{itemize}
+\end{document}
