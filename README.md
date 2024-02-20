@@ -20,3 +20,11 @@ To change paper size, use
 - \setcommand
   - checks whether or not the command already exists
   - allows you to define an optional argument
+ 
+## comment
+
+To comment a line of command, use %, for example
+
+```tex
+%$$x=\frac{1}{4}$$
+```
